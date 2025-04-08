@@ -18,16 +18,19 @@
                 max-width: 600px;
                 margin: 0 auto;
                 padding: 20px;
+                background-color: #87CEEB; /* Azul cielo */
+                min-height: 100vh;
             }
             h1 {
-                color: #0066cc;
+                color: #FFFFFF; /* Blanco para contrastar con el fondo */
                 text-align: center;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
             }
             form {
-                background-color: #f9f9f9;
+                background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
                 padding: 20px;
                 border-radius: 8px;
-                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                box-shadow: 0 0 15px rgba(0,0,0,0.2);
             }
             input {
                 display: block;
