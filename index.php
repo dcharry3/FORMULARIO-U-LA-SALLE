@@ -12,33 +12,56 @@
     <head>
         <meta charset="utf-8">
         <title>Formulario Mi Salle</title>
+        <style>
+            body {
+                background-color: pink;
+                font-family: Arial, sans-serif;
+                padding: 40px;
+                text-align: center;
+            }
+
+            h1 {
+                color: #333;
+            }
+
+            form {
+                display: inline-block;
+                padding: 20px;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+
+            input {
+                display: block;
+                margin: 10px auto;
+                padding: 10px;
+                width: 80%;
+                max-width: 300px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            input[type="submit"], input[type="reset"] {
+                background-color: #f06292;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            input[type="submit"]:hover, input[type="reset"]:hover {
+                background-color: #ec407a;
+            }
+
+            p {
+                margin-top: 20px;
+                font-weight: bold;
+            }
+        </style>
     </head>
     <body>
         <h1>Formulario Mi Salle</h1>
         <form action="#" method="post">
             <input type="text" name="nombre" placeholder="Nombre" required>
             <input type="email" name="correo" placeholder="Correo" required>
-            <input type="text" name="telefono" placeholder="Teléfono" required>
-            <input type="submit" name="registro" value="Enviar">
-            <input type="reset" value="Limpiar">
-        </form>
-    </body>
-</html>
-
-<?php
-    if(isset($_POST['registro'])) {
-        $nombre = mysqli_real_escape_string($enlace, $_POST['nombre']);
-        $correo = mysqli_real_escape_string($enlace, $_POST['correo']);
-        $telefono = mysqli_real_escape_string($enlace, $_POST['telefono']);
-       
-        $insertarDatos = "INSERT INTO mensajes (nombre, correo, telefono)
-                          VALUES ('$nombre', '$correo', '$telefono')";
-        $ejecutarInsertar = mysqli_query($enlace, $insertarDatos);
-       
-        if ($ejecutarInsertar) {
-            echo "<p>Datos guardados correctamente.</p>";
-        } else {
-            echo "<p>Error: " . mysqli_error($enlace) . "</p>";
-        }
-    }
-?>
+            <input type="text" name="telefono" placeholder="
