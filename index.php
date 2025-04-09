@@ -14,11 +14,11 @@
         <title>Formulario La Salle</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: Arial Black, sans-serif;
                 max-width: 600px;
                 margin: 0 auto;
                 padding: 20px;
-                background-color: #87CEEB; /* Azul cielo */
+                background-color:rgb(87, 202, 91); /* Azul cielo */
                 min-height: 100vh;
             }
             h1 {
