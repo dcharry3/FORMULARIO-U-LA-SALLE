@@ -60,7 +60,7 @@
             }
             .exito {
                 background-color: #dff0d8;
-                color: #3c763d;
+                color:rgb(64, 185, 43);
             }
             .error {
                 background-color: #f2dede;
