@@ -27,7 +27,7 @@
                 text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
             }
             form {
-                background-color: rgba(138, 87, 87, 0.9); /* Fondo blanco semitransparente */
+                background-color: rgba(63, 36, 181, 0.9); /* Fondo Azul semitransparente */
                 padding: 20px;
                 border-radius: 8px;
                 box-shadow: 0 0 15px rgba(0,0,0,0.2);
