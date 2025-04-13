@@ -18,7 +18,7 @@
                 max-width: 600px;
                 margin: 0 auto;
                 padding: 20px;
-                background-color:rgb(87, 202, 91); /* verde cielo */
+                background-color:rgb(80, 82, 80); /* verde cielo */
                 min-height: 100vh;
             }
             h1 {
