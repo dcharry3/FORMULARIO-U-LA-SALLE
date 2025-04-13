@@ -45,7 +45,7 @@
                 display: inline-block;
                 margin-right: 10px;
                 cursor: pointer;
-                background-color: #0066cc;
+                background-color:rgb(26, 47, 68);
                 color: white;
                 border: none;
                 padding: 10px 20px;
