@@ -14,7 +14,7 @@
         <title>Formulario La Salle</title>
         <style>
             body {
-                font-family: Arial Black, sans-serif;
+                font-family: Georgia, sans-serif;
                 max-width: 600px;
                 margin: 0 auto;
                 padding: 20px;
