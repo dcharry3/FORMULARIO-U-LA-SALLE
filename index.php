@@ -64,7 +64,7 @@
             }
             .error {
                 background-color: #f2dede;
-                color: #a94442;
+                color:rgb(255, 4, 0);
             }
         </style>
     </head>
