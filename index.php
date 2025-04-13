@@ -22,7 +22,7 @@
                 min-height: 100vh;
             }
             h1 {
-                color:rgb(72, 67, 139); /* Blanco para contrastar con el fondo */
+                color:rgb(226, 223, 14); /* Amarillo para contrastar con el fondo */
                 text-align: center;
                 text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
             }
